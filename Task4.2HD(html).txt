@@ -1,0 +1,25 @@
+<!DOCTYPE>
+ <html>
+   <body>
+   <center>
+   <br>
+<br>
+   <br>
+   <form action="https://api.particle.io/v1/devices/e00fce68f52701e375847e22/led?access_token=fcd9d36276627d7e256dd5c7d34315c198bf1154" method="POST">
+     Tell which light to flash!<br>
+    <br>
+     <p>Select the colour of the light:</p>
+  <input type="radio" id="orange" name="colour" value="orangeon">
+  <label for="male">Orange</label><br>
+  <input type="radio" id="yellow" name="colour" value="yellowon">
+  <label for="female">Yellow</label><br>
+  <input type="radio" id="green" name="colour" value="greenon">
+  <label for="other">Green</label>
+<br>
+
+     <input type="submit" value="Trigger the light!">
+    </form>
+    </center>
+    </body>
+    </html>
+© 2021 GitHub, Inc.
