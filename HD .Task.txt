@@ -1,0 +1,25 @@
+<!DOCTYPE>
+ <html>
+   <body>
+   <center>
+   <br>
+<br>
+   <br>
+   <form action="https://api.particle.io/v1/devices/e00fce68f52701e375847e22/led?access_token=0be0632e5dc1b1789c87b9ccf63fc8e19735a17f" method="POST">
+     Tell your device what to do!<br>
+    <br>
+     <p>Select the colour of the light:</p>
+  <input type="radio" id="orange" name="colour" value="orangeon">
+  <label for="male">Orange</label><br>
+  <input type="radio" id="yellow" name="colour" value="yellowon">
+  <label for="female">Yellow</label><br>
+  <input type="radio" id="green" name="colour" value="greenon">
+  <label for="other">Green</label>
+<br>
+
+     <input type="submit" value="Trigger!">
+    </form>
+    </center>
+    </body>
+    </html>
+© 2021 GitHub, Inc.
